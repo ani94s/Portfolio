@@ -8,7 +8,7 @@ import CTA from "./cta";
 import Feedback from "./footer";
 import Footer from "./footer";
 import GetStarted from "./get-started";
-import Hero from "./hero";
+import Intro from "./intro";
 import Stats from "./stats";
 import Testimonials from "./testimonials";
 
@@ -21,7 +21,7 @@ export {
   Feedback,
   Footer,
   GetStarted,
-  Hero,
+  Intro,
   Stats,
   Testimonials,
   Navbar,

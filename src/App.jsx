@@ -10,35 +10,29 @@ import {
   Feedback,
   Footer,
   GetStarted,
-  Hero,
+  Intro,
   Stats,
   Testimonials,
   Navbar,
 } from "./components";
 
 const App = () => (
-  <div className="bg-primary text-white w-full overflow-hidden min-h-screen">
-    <div className={`${styles.paddingX} ${styles.flexCenter}`}>
+  <div className="bg-primary w-[100%] text-white overflow-hidden">
+    <div className={`${styles.paddingX} ${styles.flexCenter} w-[100%]`}>
+      {/* border-b border-slate-800 shadow-md */}
       <div className={`${styles.boxWidth}`}>
         <Navbar />
       </div>
     </div>
 
-    <div className={`${styles.flexStart}`}>
+    <div className={`${styles.flexStart} w-full`}>
       <div className={`${styles.boxWidth}`}>
-        <Hero />
+        <Intro />
       </div>
     </div>
 
     <div className={`${styles.flexStart}`}>
       <div className={`${styles.boxWidth}`}>
-        <Stats />
-        <Business />
-        <Billing />
-        <CardDeal />
-        <Testimonials />
-        <Clients />
-        <CTA />
         <Footer />
       </div>
     </div>
