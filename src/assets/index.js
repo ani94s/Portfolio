@@ -17,14 +17,15 @@ import google from "./google.svg";
 import apple from "./apple.svg";
 import arrowUp from "./arrow-up.svg";
 import discount from "./Discount.svg";
-import facebook from "./facebook.svg";
-import instagram from "./instagram.svg";
-import linkedin from "./linkedin.svg";
-import twitter from "./twitter.svg";
+import facebook from "./icons/facebook2.svg";
+import instagram from "./icons/instagram.svg";
+import linkedin from "./icons/linkedin.svg";
+import twitter from "./icons/twitter.svg";
 import people01 from "./people01.png";
 import people02 from "./people02.png";
 import people03 from "./people03.png";
 import ani1 from "./ani2.png";
+import github from "./icons/github.svg";
 
 export {
   airbnb,
@@ -54,4 +55,5 @@ export {
   people03,
   anilogo,
   ani1,
+  github,
 };
