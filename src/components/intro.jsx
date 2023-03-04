@@ -22,15 +22,15 @@ const Intro = () => (
       >
         <div className="flex flex-row justify-start items-start w-full opacity-100">
           <div className="flex-1 font-poppins">
-            <h3 className="font-semibold ss:text-[40px] text-[28px] text-white">
+            <h3 className="font-semibold ss:text-lg text-base text-white">
               Hi, its me
             </h3>
-            <h1 className="text-gradient font-semibold ss:text-7xl text-8xl md:text-5xl">
+            <h1 className="text-gradient font-semibold ss:text-7xl text-4xl">
               Anirudhan
             </h1>
           </div>
         </div>
-        <p className={`${styles.paragraph} mt-5`}>
+        <p className="font-poppins font-normal text-dimWhite ss:text-base text-sm mt-5">
           An experienced software engineer with over 5 years of professional
           experience in software development, which includes front-end
           development expertise using HTML, CSS, and React for about 1.5 years.
