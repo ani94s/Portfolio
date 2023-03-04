@@ -19,19 +19,18 @@ import {
 const App = () => (
   <div className="bg-primary w-[100%] text-white overflow-hidden">
     <div className={`${styles.paddingX} ${styles.flexCenter} w-[100%]`}>
-      {/* border-b border-slate-800 shadow-md */}
       <div className={`${styles.boxWidth}`}>
         <Navbar />
       </div>
     </div>
 
-    <div className={`${styles.flexStart} w-full`}>
+    <div className={`${styles.paddingX} ${styles.flexStart} w-full`}>
       <div className={`${styles.boxWidth}`}>
         <Intro />
       </div>
     </div>
 
-    <div className={`${styles.flexStart}`}>
+    <div className={`${styles.paddingX} ${styles.flexStart} w-full`}>
       <div className={`${styles.boxWidth}`}>
         <Footer />
       </div>
