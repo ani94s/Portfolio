@@ -26,9 +26,11 @@ import people02 from "./people02.png";
 import people03 from "./people03.png";
 import ani1 from "./ani2.png";
 import github from "./icons/github.svg";
+import placeholder from "./placeholder.png";
 
 export {
   airbnb,
+  placeholder,
   bill,
   binance,
   card,
