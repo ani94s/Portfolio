@@ -17,16 +17,24 @@ import {
 
 export const navLinks = [
   {
+    id: "home",
+    title: "Home",
+    url: "/",
+  },
+  {
     id: "resume",
     title: "Resume",
+    url: "/resume",
   },
   {
     id: "projects",
     title: "Projects",
+    url: "/projects",
   },
   {
     id: "contact",
     title: "Contact",
+    url: "/contact",
   },
 ];
 

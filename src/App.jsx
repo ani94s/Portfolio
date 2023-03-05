@@ -1,40 +1,23 @@
 import React from "react";
 import styles from "./style";
 
-import {
-  Billing,
-  Business,
-  CardDeal,
-  Clients,
-  CTA,
-  Feedback,
-  Footer,
-  GetStarted,
-  Intro,
-  Stats,
-  Testimonials,
-  Navbar,
-} from "./components";
+import { Footer, Home, Navbar, Resume, Contact, Projects } from "./components";
+import { BrowserRouter, Route, Routes } from "react-router-dom";
 
 const App = () => (
   <div className="bg-primary w-[100%] text-white overflow-hidden">
-    <div className={`${styles.paddingX} ${styles.flexCenter} w-[100%]`}>
-      <div className={`${styles.boxWidth}`}>
-        <Navbar />
-      </div>
-    </div>
+    <BrowserRouter>
+      <Navbar />
 
-    <div className={`${styles.paddingX} ${styles.flexStart} w-full`}>
-      <div className={`${styles.boxWidth}`}>
-        <Intro />
-      </div>
-    </div>
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/resume" element={<Resume />} />
+        <Route path="/projects" element={<Projects />} />
+        <Route path="/contact" element={<Contact />} />
+      </Routes>
 
-    <div className={`${styles.paddingX} ${styles.flexStart} w-full`}>
-      <div className={`${styles.boxWidth}`}>
-        <Footer />
-      </div>
-    </div>
+      <Footer />
+    </BrowserRouter>
   </div>
 );
 
